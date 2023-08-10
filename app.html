@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/app.css">
+    <title>Report</title>
+</head>
+<body class="noSecurity"> <!-- to active security give it this class : noSecurity --> 
+
+    <!-- Header -->
+    <!-- progress -->
+    <div class="Progress"> <!-- to work progress give it this class : act -->
+        <div class="proLine"></div>
+    </div>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            GA System
+        </div>
+        <span class="spinner"></span> <!-- to show this spinner give it this class: act -->
+    </header>
+    <!-- Security -->
+    <section class="security" id="paSecurity">
+        <div class="Sign">
+            <span class="back" id="back_send">Back</span>
+            <h1>Sign In</h1>
+            <div class="form-control" id="formUser">
+                <label for="UserName">User Name:</label>
+                <input type="text" id="UserName">
+            </div>
+            <div class="form-control pass" id="formPass">
+                <label for="Pass">Password:</label>
+                <input type="password" id="Pass">
+                <span id="showPass">show</span>
+            </div>
+            <div class="form-control null" id="formCode">
+                <label for="code">Code:</label>
+                <input type="text" id="code">
+            </div>
+            
+            <p class="SMail">Forget My Password</p>
+            <button class="SendData" id="fire_war">Sent To Server</button>
+        </div>
+    </section>
+
+
+    <!-- divs -->
+    <section class="divs">
+        <div class="div"> <!-- to hide it give it this class : hide -->
+            <div class="d" id="fir"></div><!-- to make any div is red give it this class : err -->
+            <div class="d" id="secd"></div><!-- to make any div is red give it this class : err -->
+            <div class="d" id="thd"></div><!-- to make any div is red give it this class : err -->
+        </div>
+        <div class="Number">0</div> <!-- to show it give it this class: show -->
+        <div class="buttons">
+            <button class="lose btn btn-danger">Failed</button>
+            <!-- <input type="date" id="date"> -->
+            <button class="dateBtn btn btn-seconder">Date</button>
+            <button class="save btn btn-server" id="saveTable">Save</button>
+            <button class="ShowData btn">Data</button>
+        </div>
+    </section>
+
+
+    <!-- table -->
+
+    <section class="table">
+        <table>
+            <tr class="main">
+                <th>index</th>
+                <th>failed</th>
+                <th>date</th>
+                <th>Reason</th>
+                <th>result this day</th>
+            </tr>
+            <tbody class="body">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>17/2/2023</td>
+                    <td class="open">Open<span></span></td>
+                    <td>100%</td>
+                </tr>
+                <tr class="r">
+                    <td>2</td>
+                    <td>5</td>
+                    <td>17/2/2023</td>
+                    <td class="open">Open <span></span></td>
+                    <td><span class="open">MGE <span></span></span></td>
+                </tr> -->
+            </tbody>
+        </table>
+    </section>
+
+    <section class="messageTable"> <!-- to show give show. to hide give hide then delete show and hide  -->
+        <span class="closeTable"></span>
+        <h1>Info All Weeks</h1>
+        <table>
+            <tr class="main">
+                <th>
+                    F2Week
+                </th>
+                <th>NDoing</th>
+                <th>%2</th>
+                <th>%</th>
+                <th>Result</th>
+            </tr>
+            <tbody id="tbody_tow">
+            </tbody>
+        </table>
+        <!-- this is finally -->
+        <p class="resTWAll">Your All Level Is %<span id="persentWeeks"></span></p>
+        <p class="resTWAll">You Is <span id="res_tab_tow"></span></p>
+    </section>
+
+    <!-- Reason -->
+    <div class="Message hide" id="ReasonM">
+        <div class="subj">
+            <p>to Delete Stop dbl Click in document..</p>
+            <label for="">Why You Failed?</label>
+            <textarea id="Reason"></textarea>
+        </div>
+        <span class="btn-save" id="saveReason">Save</span>
+    </div>
+
+
+    <!-- Table Print Here -->
+    <div class="PrintT">
+        <h1>Government Administrator System</h1>
+        <div class="NTable">
+            <div class="subT">
+                Information
+            </div>
+            <table>
+                <tr>
+                    <th>Name</th> <td id="NameTP">GAS</td>
+                    <th>Id</th> <td id="IdTP">125AS5</td>
+                </tr>
+                <tr>
+                    <th>Start Date </th> <td id="SDTP">22/2/2023</td>
+                    <th>End Date</th> <td id="EDTP">5/5/2024</td>
+                </tr>
+                <tr>
+                    <th>Result</th> <td id="RTP">Advanced</td>
+                    <th>present</th> <td id="PTP">80%</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="NTable">
+            <div class="subT">
+                Table
+            </div>
+            <table>
+                <tr>
+                    <th>
+                        F2Week
+                    </th>
+                    <th>NDoing</th>
+                    <th>Tow Week</th>
+                    <th>First week</th>
+                    <th>Second week</th>
+                    <th>Result</th>
+                </tr>
+                <tbody id="InfoNTP">
+                    <tr>
+                        <td>1</td>
+                        <td>24</td>
+                        <td>51%</td>
+                        <td>54%</td>
+                        <td>45%</td>
+                        <td>good</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button id="PrintTIN">Print</button>
+    </div>
+
+    <!-- the sitting table print -->
+
+</body>
+<script src="JS/back/Js.js"></script>
+</html>

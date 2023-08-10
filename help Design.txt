@@ -1,0 +1,133 @@
+ New Update
+
+ 1 - class new for table data to print {
+
+      . take start date  => this for user input in system and when input the system tell his update no add
+      . take end date => this auto when take finally
+      . make button out system to print (list document)
+      . make security when date become 12 to system not work
+      . make auto id 6 works
+      . Create new message
+      . make sitting =>{ 
+          - control print type like color , background , style , more..
+          - Input to take date start 
+          - show and hide button print
+          - Information User
+          [
+             Name
+             ---------------------
+             color text 
+             ---------------------
+             background 
+             ---------------------
+             Font Size text
+             --------------------
+             Font Wight
+             -------------------
+             Show Or Hide Button print (on / off)
+
+             Date Start 
+             ----------------------- 
+             ---------
+             | Save  |
+             ---------
+          ]
+      }
+
+ }
+
+ 2 - Table Print 
+    . this Design like Helwan University
+  [
+
+       |Information                                                                         |
+       |-----------------------------------------------------|-------------------------------
+       |start date          |    29/3/2023                   | end date      |   15/12/2023
+       |-----------------------------------------------------|-------------------------------
+       |Name                |    GAS                         | id            |   125AS5
+       |-----------------------------------------------------|-------------------------------
+       |Result              |   Good                         | %             |    80%
+       |-----------------------------------------------------|-------------------------------
+
+       | Table
+       |-------------------------------------------------------------------------------------
+       | F2Week      |       NDoing    |    %2     |      %      |       Result             |
+       |-------------------------------------------------------------------------------------
+
+
+                            -----------
+                            |  Print  |
+                            -----------
+
+  ]
+
+  this is design table
+
+3 - class Count_Zero {
+
+      . count zero in the 2 week 
+      . the owner 
+
+}
+
+4 - class Important_Point{
+
+  . Take Important_Point =>{
+    inp{Important_Point}
+    -----------------------
+    inp{Reason}
+    -----------------------
+    inp{Date}
+    -----------------------
+  }
+  . show Important Point => {
+    like Table
+    [
+         Important_Point
+         ---------------------------------------
+         The point |  Reason   | Date
+         ---------------------------------------
+    ]
+  }
+
+}
+------------------------------------------------------------------------
+Index the work:                                                        |
+1- {D}                                                                 |
+2- {D}                                                                 |
+3- {D}                                                                 |  
+4- {1}                                                                 |
+------------------------------------------------------------------------
+
+
+// Here Work Code 
+
+To Make count 
+
+
+[#] Sitting Table Print => this make in html document ,To can control it easy.
+
+we make some change in message is => {make full screen};
+
+
+
+TEST APP
+[1] Pages
+[2] Results
+[3] Date
+[4] Style
+
+-----------------------------------
+
+[1] short time (100)
+[2] change logo
+[3] list in security => {
+  add error
+  date 
+  access
+}
+[4] setting
+
+start() => {
+  time to -> 100
+}
